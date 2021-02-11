@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fff5920-5ff3-499a-806a-886b2bf3cee2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpellingCorrector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/junit-jupiter-api-5.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/junit-platform-commons-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notsobig.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/passoff/SpellTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/passoff/TrieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spell/INode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spell/ISpellCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spell/ITrie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spell/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spell/SpellCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spell/SpellCorrector_backup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spell/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spell/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/words.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="73e0b5c2-798c-41dc-84d0-91ce050d41fa" />
+  </component>
+  <component name="ProjectId" id="1bSihJJ3GDUcwwALZwcgnyDLaEW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan Leach\IdeaProjects\SpellingCorrector\src" />
+      <recent name="C:\Users\Ryan Leach\IdeaProjects\SpellingCorrector" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan Leach\IdeaProjects\SpellingCorrector" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spell" />
+      <recent name="passoff" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpellTest">
+    <configuration name="SpellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpellingCorrector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="MAIN_CLASS_NAME" value="passoff.SpellTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpellTest.testAlterationAlteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpellingCorrector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="MAIN_CLASS_NAME" value="passoff.SpellTest" />
+      <option name="METHOD_NAME" value="testAlterationAlteration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpellTest.testTransposition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpellingCorrector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="MAIN_CLASS_NAME" value="passoff.SpellTest" />
+      <option name="METHOD_NAME" value="testTransposition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpellingCorrector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="MAIN_CLASS_NAME" value="passoff.TrieTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="passoff in SpellingCorrector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpellingCorrector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpellTest" />
+      <item itemvalue="JUnit.TrieTest" />
+      <item itemvalue="JUnit.SpellTest.testTransposition" />
+      <item itemvalue="JUnit.SpellTest.testAlterationAlteration" />
+      <item itemvalue="JUnit.passoff in SpellingCorrector" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpellTest" />
+        <item itemvalue="JUnit.TrieTest" />
+        <item itemvalue="JUnit.passoff in SpellingCorrector" />
+        <item itemvalue="JUnit.SpellTest.testAlterationAlteration" />
+        <item itemvalue="JUnit.SpellTest.testTransposition" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fff5920-5ff3-499a-806a-886b2bf3cee2" name="Default Changelist" comment="" />
+      <created>1588632012807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588632012807</updated>
+    </task>
+    <servers />
+  </component>
+</project>
