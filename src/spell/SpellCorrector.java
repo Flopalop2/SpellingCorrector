@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.util.*;
 
 public class SpellCorrector implements ISpellCorrector{
-    private File dictionary;
-    private Trie dictionaryTrie;
+    private final Trie dictionaryTrie;
     private String curSug;
     private int curSugCount;
     private final int MAX_EDIT_DISTANCE;
@@ -24,7 +23,7 @@ public class SpellCorrector implements ISpellCorrector{
 
     @Override
     public void useDictionary(String dictionaryFileName) throws IOException {
-        dictionary = new File(dictionaryFileName);
+        File dictionary = new File(dictionaryFileName);
 
         Scanner scanner = new Scanner(dictionary);
         while (scanner.hasNext()) {
@@ -102,11 +101,14 @@ public class SpellCorrector implements ISpellCorrector{
                         curSug = possibleWord;
                         curSugCount = returnVal.getValue();
                     } else {
-                        if (curSugCount == returnVal.getValue()) {
-
-                        } else if (curSugCount < returnVal.getValue()) {
-                            curSug = possibleWord;
-                            curSugCount = returnVal.getValue();
+                        /*
+                        if (curSugCount == returnVal.getValue())
+                         */
+                        if (curSugCount != returnVal.getValue()) {
+                            if (curSugCount < returnVal.getValue()) {
+                                curSug = possibleWord;
+                                curSugCount = returnVal.getValue();
+                            }
                         }
                     }
                 }

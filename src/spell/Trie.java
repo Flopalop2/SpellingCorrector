@@ -1,7 +1,9 @@
 package spell;
 
-import java.util.Locale;
-import java.util.Objects;
+/*
+import java.util.Locale
+import java.util.Objects
+*/
 
 public class Trie implements ITrie{
     TrieNode root;
@@ -181,7 +183,5 @@ public class Trie implements ITrie{
                 curWord.deleteCharAt(curWord.length()-1);
             }
         }
-
-        return;
     }
 }

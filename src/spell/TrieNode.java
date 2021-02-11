@@ -20,7 +20,6 @@ public class TrieNode implements INode{
 
     @Override
     public INode[] getChildren() {
-        INode[] returnVal = children;
-        return returnVal;
+        return children;
     }
 }
