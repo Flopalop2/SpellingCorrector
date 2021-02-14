@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fff5920-5ff3-499a-806a-886b2bf3cee2" name="Default Changelist" comment="First Commit test">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spell/SpellCorrector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spell/SpellCorrector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spell/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spell/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spell/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spell/TrieNode.java" afterDir="false" />
+    <list default="true" id="8fff5920-5ff3-499a-806a-886b2bf3cee2" name="Default Changelist" comment="removed warnings">
+      <change afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spell/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spell/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -41,10 +40,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\flopa\IdeaProjects\SpellingCorrector\src" />
       <recent name="C:\Users\Ryan Leach\IdeaProjects\SpellingCorrector\src" />
       <recent name="C:\Users\Ryan Leach\IdeaProjects\SpellingCorrector" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\flopa\IdeaProjects\SpellingCorrector" />
       <recent name="C:\Users\Ryan Leach\IdeaProjects\SpellingCorrector" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -52,7 +53,20 @@
       <recent name="passoff" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpellTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spell.Main" />
+      <module name="SpellingCorrector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spell.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpellingCorrector" />
       <extension name="coverage">
@@ -79,22 +93,6 @@
       <option name="PACKAGE_NAME" value="passoff" />
       <option name="MAIN_CLASS_NAME" value="passoff.SpellTest" />
       <option name="METHOD_NAME" value="testAlterationAlteration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpellTest.testTransposition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpellingCorrector" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="passoff.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="passoff" />
-      <option name="MAIN_CLASS_NAME" value="passoff.SpellTest" />
-      <option name="METHOD_NAME" value="testTransposition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,19 +128,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.SpellTest" />
       <item itemvalue="JUnit.TrieTest" />
-      <item itemvalue="JUnit.SpellTest.testTransposition" />
       <item itemvalue="JUnit.SpellTest.testAlterationAlteration" />
       <item itemvalue="JUnit.passoff in SpellingCorrector" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SpellTest" />
         <item itemvalue="JUnit.TrieTest" />
         <item itemvalue="JUnit.passoff in SpellingCorrector" />
         <item itemvalue="JUnit.SpellTest.testAlterationAlteration" />
-        <item itemvalue="JUnit.SpellTest.testTransposition" />
       </list>
     </recent_temporary>
   </component>
@@ -165,11 +163,30 @@
       <option name="project" value="LOCAL" />
       <updated>1613020589041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="removed warnings">
+      <created>1613020910038</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613020910038</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit test" />
+    <MESSAGE value="removed warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed warnings" />
   </component>
 </project>

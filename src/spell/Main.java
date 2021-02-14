@@ -1,5 +1,6 @@
 package spell;
 
+import javax.swing.*;
 import java.io.IOException;
 
 /**
@@ -15,9 +16,38 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 
 		//to run cmd: Main.java dictionarytxtfilename.txt testword
+		String dictionaryFileName;
+		String inputWord;
 
-		String dictionaryFileName = args[0];
-		String inputWord = args[1];
+		if (args.length > 0) {
+			try {
+				dictionaryFileName = args[0];
+				inputWord = args[1];
+			}
+			catch (Exception ex) {
+				System.out.println("Input not valid");
+				return;
+			}
+		}
+		else {
+			dictionaryFileName = JOptionPane.showInputDialog(
+					null,
+					"Please input the dictionary txt name: ",
+					"Dictionary",
+					JOptionPane.QUESTION_MESSAGE);
+
+			inputWord = JOptionPane.showInputDialog(
+					null,
+					"Please input word: ",
+					"Dictionary",
+					JOptionPane.QUESTION_MESSAGE);
+		}
+
+		if (dictionaryFileName == null || inputWord == null) {
+			JOptionPane.showMessageDialog(null, "Invalid input", "Sup",JOptionPane.ERROR_MESSAGE);
+			System.out.println("Invalid input");
+			return;
+		}
 		
 		//
         //Create an instance of your corrector here
@@ -29,8 +59,9 @@ public class Main {
 		if (suggestion == null) {
 		    suggestion = "No similar word found";
 		}
-		
-		System.out.println("Suggestion is: " + suggestion);
+
+		JOptionPane.showMessageDialog(null, "Suggestion is: " + suggestion, "Sup",JOptionPane.PLAIN_MESSAGE); //change this to give 2 suggestions
+		//System.out.println("Suggestion is: " + suggestion);
 	}
 
 }
